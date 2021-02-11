@@ -43,7 +43,7 @@ def move_left(ptz, request, timeout=1):
     perform_move(ptz, request, timeout)
 
 def continuous_move():
-    mycam = ONVIFCamera('192.168.1.11', 80, 'grompot', 'Brommer99')
+    mycam = ONVIFCamera('192.168.1.11', 80, 'username', 'password')
     # Create media service object
     media = mycam.create_media_service()
     # Create ptz service object
