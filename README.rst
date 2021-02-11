@@ -12,7 +12,7 @@ Dependencies
 `suds-passworddigest <https://pypi.python.org/pypi/suds_passworddigest>`_
 
 WSDiscovery 1.1.2 (Only for Linux)
-pip install WSDiscovery==1.1.2
+    pip install WSDiscovery==1.1.2
 
 Install python-onvif
 --------------------
